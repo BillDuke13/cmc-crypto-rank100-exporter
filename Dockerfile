@@ -12,4 +12,4 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 COPY --from=builder /src/app .
 EXPOSE 8080
-CMD ["./app", "YOU_CMC_API_KEY"]
+CMD ["./app", "YOUR_CMC_API_KEY"]
